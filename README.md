@@ -1,27 +1,109 @@
-# JvWeather
+<h2 align="center"> Previsão do tempo ⛈️</h2>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+___
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
+<h3 align="center">
+  <a href="#about">Sobre</a>&nbsp;|&nbsp;
+  <a href="#reason">Motivo</a>&nbsp;|&nbsp;
+  <a href="#requirements">Requisitos</a>&nbsp;|&nbsp;
+  <a href="#technologies">Tecnologias</a>&nbsp;|&nbsp;
+	<a href="#references">Referências</a>&nbsp;|&nbsp;
+</h3>
+
+___
+
+
+<h2 id="about">🔎 Sobre</h2>
+
+Esse é o repositório da aula 'Criando projeto para consultar a previsão do tempo via API', do Bootcamp FullStack da Avanade.
+
+<h2 id="reason">🎯 Motivo</h2>
+O objetivo aqui é praticar e comprovar minhas habilidades desenvolvidas durante o Bootcamp FullStack da Avanade, que foi proposta através da DigitalinnovationOne. Evoluir mais ainda meus conhecimentos em Angular e desenvolvimento Web. Aprender uma forma avançada de gerenciamento de estado com NGRX, práticas e padrões de desenvolvimento, acompanhados de algumas APIs úteis que o Angular possui. 
+
+<h2 id="requirements">⚙ Requisitos</h2>
+
+git clone ou baixar esse repositório.
+
+```
+npm install
+```
+
+Criar uma conta no:
+``` 
+https://openweathermap.org/
+```
+Alter a chave nos arquivos:
+```
+src/environments/environment.prod.ts
+src/environments/environment.ts
+
+apiKey: 'colocar sua chave bem aqui',
+```
+
+Executar o projeto:
+```
+ng serve -o
+```
+
 
 ## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Gerar um novo componente:
+```
+ng generate component component-name
+```
+Outras formas:
+ ```
+ ng generate directive|pipe|service|class|guard|interface|enum|module
+ ```
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Para buildar o projeto:
 
-## Running unit tests
+```
+ng build
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para buildar em modo produção: 
+```
+ng build --prod
+```
 
-## Running end-to-end tests
+Os artefatos vão ficar dentro da pasta /dist
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Unit tests
+Executando teste via Karma:
+```
+ng test
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## End-to-end tests
+Executando testes via protractor:
+```
+ng e2e
+```
+
+
+
+
+<h2 id="technologies">🚀 Tecnologias</h2>
+
+O projeto foi desenvolvido em:
+
+- HTML
+- CSS
+- Bootstrap
+- Typescript
+- Angualar
+
+
+<h2 id="references">📚 Referências</h2>
+
+https://angular.io/
+
+
